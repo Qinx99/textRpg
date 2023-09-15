@@ -7,7 +7,7 @@ h1 {
     text-align: center;
 }
 
-.buttons .play h1, .buttons .options h1 {
+.buttons .play h1, .buttons .options h1, .buttons .github h1 {
     color: gray;
 }
 
@@ -36,6 +36,13 @@ a{
     transform: translate(-50%, -55%);
 }
 
-.buttons .play h1:hover, .buttons .options h1:hover{
+.buttons .github {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.buttons .play h1:hover, .buttons .options h1:hover, .buttons .github h1:hover{
     color: white;
 }
