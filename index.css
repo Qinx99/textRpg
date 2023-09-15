@@ -1,0 +1,41 @@
+body {
+    background: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.buttons .play h1, .buttons .options h1 {
+    color: gray;
+}
+
+a{
+    color:inherit;
+}
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.buttons .play {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.buttons .options {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.buttons .play h1:hover, .buttons .options h1:hover{
+    color: white;
+}
